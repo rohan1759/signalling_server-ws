@@ -98,5 +98,5 @@ ws.on("connection", (connection, req) => {
             connection.isAlive = false;
             connection.ping();
         }
-    }, 30000); // Ping every 30 seconds
+    }, 30000); // ping every 30 seconds
 });
